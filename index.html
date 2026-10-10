@@ -1,202 +1,569 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GameSetTrack Privacy Policy</title>
-<style>
-body {
-    max-width: 850px;
-    margin: auto;
-    padding: 40px;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.7;
-    color: #222;
-}
-h1, h2 {
-    color: #111;
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GameSetTrack Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    body {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 20px 56px;
+      line-height: 1.65;
+      color: CanvasText;
+      background: Canvas;
+    }
+    h1, h2 { line-height: 1.2; }
+    h1 { margin-bottom: 8px; }
+    h2 { margin-top: 32px; }
+    h3 { margin-top: 24px; }
+    .muted {
+      color: color-mix(in srgb, CanvasText 65%, Canvas);
+    }
+    a { color: LinkText; }
+  </style>
 </head>
 <body>
+  <h1>GameSetTrack Privacy Policy</h1>
+  <p class="muted">Last updated: October 10, 2026</p>
 
-<h1>Privacy Policy for GameSetTrack</h1>
+  <h2>1. About This Policy</h2>
+  <p>
+    GameSetTrack is a tennis tracking and analytics
+    application developed and managed by Sriharsha Tumu
+    and published by Ravichandra Tumu through an
+    individual Apple Developer account.
+  </p>
+  <p>
+    This Privacy Policy explains how GameSetTrack
+    ("we," "us," or "our") handles information when
+    you use our iPhone app, Apple Watch app,
+    and related services.
+  </p>
+  <p>
+    Ravichandra Tumu is the publisher responsible
+    for the application's privacy practices.
+    Sriharsha Tumu develops and maintains GameSetTrack.
+  </p>
 
-<p><strong>Last Updated:</strong> June 2026</p>
+  <h2>2. Information We Handle</h2>
+  <p>
+    Depending on the features you use, GameSetTrack
+    may collect or process the following information:
+  </p>
+  <ul>
+    <li>
+      <strong>Account information:</strong>
+      Email address, display name, account identifiers,
+      and authentication-related information.
+    </li>
+    <li>
+      <strong>Tennis information:</strong>
+      Match records, scores, points, match dates,
+      opponent names or labels, match notes,
+      and other information you enter.
+    </li>
+    <li>
+      <strong>Performance information:</strong>
+      Calculated statistics, trends, match summaries,
+      and analytics based on tennis activity.
+    </li>
+    <li>
+      <strong>AI coaching information:</strong>
+      Coaching requests, relevant match statistics,
+      performance summaries, generated recommendations,
+      and related analysis.
+    </li>
+    <li>
+      <strong>Synchronization information:</strong>
+      Record identifiers, update information,
+      synchronization status, and data used
+      to resolve conflicts across devices.
+    </li>
+    <li>
+      <strong>Technical information:</strong>
+      Information necessary for authentication,
+      request validation, rate limiting,
+      troubleshooting, and service security.
+    </li>
+  </ul>
+  <p>
+    GameSetTrack does not require medical records,
+    HealthKit access, or health information
+    to provide its tennis tracking features.
+  </p>
 
-<p>
-GameSetTrack ("we", "our", or "us") is committed to protecting your privacy.
-This Privacy Policy explains what information GameSetTrack collects, how it is used, and the choices available to you.
-</p>
+  <h2>3. Sign in with Apple and Google Sign-In</h2>
+  <p>
+    GameSetTrack supports Sign in with Apple
+    and Google Sign-In for authentication.
+  </p>
+  <p>
+    When you sign in, your selected identity
+    provider supplies authentication information
+    that Supabase Auth uses to establish
+    and maintain your GameSetTrack account.
+  </p>
+  <p>
+    Depending on the provider and information
+    you choose to share, this may include
+    an email address, name, and provider-specific
+    account identifier.
+  </p>
+  <p>
+    Sign in with Apple may allow you to use
+    Apple's Hide My Email feature, which provides
+    a private relay email address.
+  </p>
+  <p>
+    GameSetTrack does not receive your Apple Account
+    or Google account password.
+  </p>
+  <p>
+    Supabase Auth manages application sessions,
+    user identifiers, and authentication tokens.
+    The iPhone manages sign-in and communicates
+    relevant authentication state to the
+    companion Apple Watch app.
+  </p>
+  <p>
+    Provider privacy information:
+  </p>
+  <ul>
+    <li>
+      <a href="https://www.apple.com/legal/privacy/"
+         target="_blank" rel="noopener noreferrer">
+        Apple Privacy Policy
+      </a>
+    </li>
+    <li>
+      <a href="https://policies.google.com/privacy"
+         target="_blank" rel="noopener noreferrer">
+        Google Privacy Policy
+      </a>
+    </li>
+    <li>
+      <a href="https://supabase.com/privacy"
+         target="_blank" rel="noopener noreferrer">
+        Supabase Privacy Policy
+      </a>
+    </li>
+  </ul>
 
-<h2>Information We Collect</h2>
+  <h2>4. Local Storage</h2>
+  <p>
+    GameSetTrack uses Apple's SwiftData framework
+    to store tennis records and application data
+    locally on your iPhone and Apple Watch.
+  </p>
+  <p>
+    Local information may include match history,
+    point records, statistics, notes,
+    and information awaiting synchronization.
+  </p>
+  <p>
+    This allows supported features to work
+    without an active internet connection.
+  </p>
+  <p>
+    When cloud synchronization is enabled
+    and connectivity is available,
+    eligible locally stored information
+    may be uploaded to the backend.
+  </p>
+  <p>
+    Local information may remain on a device
+    until removed through app functionality,
+    account deletion, or applicable device
+    storage behavior.
+  </p>
 
-<h3>Account Information</h3>
+  <h2>5. Cloud Storage and Synchronization</h2>
+  <p>
+    GameSetTrack uses Supabase for authentication,
+    PostgreSQL database storage, and
+    server-side Edge Functions.
+  </p>
+  <p>
+    Match records, point-level information,
+    and related tennis data may be synchronized
+    to Supabase through authenticated requests.
+  </p>
+  <p>
+    Synchronization uses account identifiers
+    and access tokens to associate records
+    with the appropriate user.
+  </p>
+  <p>
+    The backend implements ownership validation,
+    conflict handling, offline queue processing,
+    and retry mechanisms.
+  </p>
+  <p>
+    Cloud synchronization helps restore and
+    maintain tennis records across supported
+    devices signed into the same account.
+  </p>
+  <p>
+    Supabase processes information according
+    to its applicable contractual terms
+    and privacy practices.
+  </p>
+  <p>
+    Learn more:
+    <a href="https://supabase.com/privacy"
+       target="_blank" rel="noopener noreferrer">
+      Supabase Privacy Policy
+    </a>.
+  </p>
 
-<p>If you create an account, we may collect:</p>
+  <h2>6. Apple Watch and WatchConnectivity</h2>
+  <p>
+    GameSetTrack includes an Apple Watch companion
+    application for recording tennis matches
+    and individual points.
+  </p>
+  <p>
+    The Apple Watch and iPhone applications
+    communicate through Apple's
+    WatchConnectivity framework.
+  </p>
+  <p>
+    This communication may include match records,
+    point updates, synchronization information,
+    and relevant authentication state.
+  </p>
+  <p>
+    The iPhone serves as the primary coordinator
+    for cloud synchronization.
+  </p>
+  <p>
+    GameSetTrack does not use WatchConnectivity
+    for advertising or cross-app tracking.
+  </p>
 
-<ul>
-<li>Email address</li>
-<li>Name (if provided)</li>
-<li>Profile photo (if provided)</li>
-<li>Authentication provider information (Google Sign-In or email/password)</li>
-<li>Anonymous guest account identifier (if using Guest Mode)</li>
-</ul>
+  <h2>7. AI Coaching and NVIDIA NIM</h2>
+  <p>
+    GameSetTrack offers AI-assisted tennis
+    coaching and performance analysis.
+  </p>
+  <p>
+    When you request AI coaching, relevant
+    match statistics, performance information,
+    and coaching context may be transmitted
+    through authenticated Supabase
+    Edge Functions to NVIDIA NIM.
+  </p>
+  <p>
+    NVIDIA's AI services process the submitted
+    information to generate coaching
+    recommendations and structured responses.
+  </p>
+  <p>
+    GameSetTrack does not intentionally send
+    Apple or Google passwords, authentication
+    tokens, or privileged backend credentials
+    to the AI model.
+  </p>
+  <p>
+    Coaching responses and related analysis
+    may be cached locally or in backend storage
+    for performance and reuse.
+  </p>
+  <p>
+    NVIDIA may process or retain request
+    information according to its applicable
+    agreements, service configuration,
+    and privacy policies.
+  </p>
+  <p>
+    Learn more:
+    <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-center/"
+       target="_blank" rel="noopener noreferrer">
+      NVIDIA Privacy Center
+    </a>.
+  </p>
+  <p>
+    AI-generated coaching recommendations
+    may be incomplete or inaccurate.
+    They are provided for general tennis
+    education and improvement, not as
+    medical or professional health advice.
+  </p>
 
-<h3>Match and Performance Data</h3>
+  <h2>8. How We Use Information</h2>
+  <p>
+    We use information to:
+  </p>
+  <ul>
+    <li>Create and manage user accounts.</li>
+    <li>Authenticate users and restore sessions.</li>
+    <li>Record matches, scores, and points.</li>
+    <li>Calculate tennis statistics and trends.</li>
+    <li>Synchronize data between supported devices.</li>
+    <li>Support offline tracking and queued synchronization.</li>
+    <li>Generate AI-assisted coaching recommendations.</li>
+    <li>Cache generated analysis when appropriate.</li>
+    <li>Resolve synchronization conflicts.</li>
+    <li>Prevent unauthorized access and service abuse.</li>
+    <li>Maintain application reliability and security.</li>
+    <li>Respond to support and privacy requests.</li>
+  </ul>
 
-<p>GameSetTrack stores information that you enter while using the app, including:</p>
+  <h2>9. Third-Party Services</h2>
+  <p>
+    GameSetTrack uses the following services
+    to provide its functionality:
+  </p>
+  <ul>
+    <li>
+      <strong>Apple:</strong>
+      Sign in with Apple, SwiftData,
+      WatchConnectivity, and device services.
+    </li>
+    <li>
+      <strong>Google:</strong>
+      Google Sign-In authentication.
+    </li>
+    <li>
+      <strong>Supabase:</strong>
+      Authentication, PostgreSQL storage,
+      cloud synchronization, Edge Functions,
+      and backend security.
+    </li>
+    <li>
+      <strong>NVIDIA:</strong>
+      AI inference for tennis coaching features.
+    </li>
+  </ul>
+  <p>
+    These providers may process information
+    according to their applicable terms
+    and privacy policies.
+  </p>
 
-<ul>
-<li>UTR ratings</li>
-<li>Match configurations and scoring formats</li>
-<li>Points won and lost</li>
-<li>Shot types and statistics</li>
-<li>Performance trends</li>
-<li>Personal match notes</li>
-<li>Coach conversations and AI-generated analysis</li>
-</ul>
+  <h2>10. Advertising and Tracking</h2>
+  <p>
+    GameSetTrack does not currently use
+    advertising SDKs, advertising identifiers,
+    or third-party cross-app tracking features.
+  </p>
+  <p>
+    We do not sell personal information
+    to advertisers or use tennis performance
+    data for targeted advertising.
+  </p>
+  <p>
+    Third-party authentication and
+    infrastructure providers may process
+    technical information according
+    to their own privacy practices.
+  </p>
 
-<h3>Device Information</h3>
+  <h2>11. Data Sharing</h2>
+  <p>
+    Information is transmitted to third-party
+    service providers only as needed to
+    operate the supported features described
+    in this policy.
+  </p>
+  <p>
+    Supabase may process account details
+    and synchronized tennis records.
+    NVIDIA may process relevant performance
+    information submitted for AI coaching.
+  </p>
+  <p>
+    We may also disclose information when
+    required by applicable law, valid legal
+    process, or legitimate security needs.
+  </p>
+  <p>
+    GameSetTrack does not intentionally
+    make private user account information
+    publicly available to other users.
+  </p>
 
-<p>We may receive limited technical information necessary for authentication and synchronization, including:</p>
+  <h2>12. Data Retention</h2>
+  <p>
+    Account information and cloud-synchronized
+    tennis records may be retained while
+    your account remains active and for
+    as long as reasonably necessary to
+    provide the service.
+  </p>
+  <p>
+    Local information may remain on your
+    iPhone or Apple Watch until deleted
+    through the application or applicable
+    device storage processes.
+  </p>
+  <p>
+    Cached coaching responses, technical logs,
+    and synchronization information may be
+    retained for functionality, reliability,
+    and security.
+  </p>
+  <p>
+    Independent service providers may
+    retain certain request records and
+    other processed information under
+    their own policies and agreements.
+  </p>
+  <p>
+    We aim to limit unnecessary retention,
+    subject to applicable legal obligations.
+  </p>
 
-<ul>
-<li>Device identifiers generated by Firebase</li>
-<li>App version information</li>
-<li>Error logs and diagnostic information</li>
-</ul>
+  <h2>13. Security</h2>
+  <p>
+    GameSetTrack uses HTTPS, Supabase
+    authentication, access tokens,
+    and backend ownership validation
+    to protect account-related operations.
+  </p>
+  <p>
+    Privileged Supabase credentials
+    and NVIDIA API credentials are
+    managed server-side and are not
+    included in the production apps.
+  </p>
+  <p>
+    We take reasonable measures
+    to protect information against
+    unauthorized access, alteration,
+    disclosure, and loss.
+  </p>
+  <p>
+    No electronic transmission or
+    storage system can guarantee
+    absolute security.
+  </p>
 
-<h2>How We Use Information</h2>
+  <h2>14. Account Deletion</h2>
+  <p>
+    GameSetTrack provides an in-app
+    account deletion process.
+  </p>
+  <p>
+    Account deletion requests are processed
+    using a Supabase Edge Function that
+    handles associated account data cleanup.
+  </p>
+  <p>
+    Following successful deletion,
+    GameSetTrack clears applicable local
+    account information, signs the user out,
+    and removes account-associated data
+    covered by the server-side deletion process.
+  </p>
+  <p>
+    Certain records may be retained when
+    required by law or for legitimate
+    security obligations.
+  </p>
+  <p>
+    Independent providers may retain
+    information under their own
+    applicable retention practices.
+  </p>
+  <p>
+    For deletion assistance or privacy requests,
+    email
+    <a href="mailto:gamesettrackapp@gmail.com">
+      gamesettrackapp@gmail.com
+    </a>.
+  </p>
 
-<p>Information is used solely to:</p>
+  <h2>15. Children's Privacy</h2>
+  <p>
+    GameSetTrack is intended for a general
+    tennis-playing audience and is not
+    specifically directed at children
+    under the age of 13.
+  </p>
+  <p>
+    We do not knowingly collect personal
+    information from children under 13
+    without authorization required
+    by applicable law.
+  </p>
+  <p>
+    If a parent or guardian believes
+    a child has provided personal
+    information without appropriate
+    authorization, they may contact us
+    to request review or deletion.
+  </p>
 
-<ul>
-<li>Provide match tracking features.</li>
-<li>Authenticate user accounts.</li>
-<li>Synchronize data between iPhone and Apple Watch.</li>
-<li>Generate AI coaching responses and performance analysis.</li>
-<li>Improve reliability and performance.</li>
-<li>Prevent abuse and secure our services.</li>
-</ul>
+  <h2>16. Privacy Rights and Choices</h2>
+  <p>
+    Depending on applicable law,
+    users may have rights to request
+    access to, correction of, or
+    deletion of their personal information.
+  </p>
+  <p>
+    You may manage certain account
+    information and initiate account
+    deletion within GameSetTrack.
+  </p>
+  <p>
+    For additional privacy requests,
+    contact
+    <a href="mailto:gamesettrackapp@gmail.com">
+      gamesettrackapp@gmail.com
+    </a>.
+  </p>
 
-<h2>AI Processing</h2>
+  <h2>17. International Data Processing</h2>
+  <p>
+    GameSetTrack uses third-party
+    infrastructure and AI providers
+    that may process information
+    outside your country of residence.
+  </p>
+  <p>
+    Such processing is subject to
+    applicable laws and the providers'
+    contractual and privacy practices.
+  </p>
 
-<p>
-GameSetTrack provides AI coaching features, including post-match analysis,
-trend analysis, and conversational coaching.
-To generate these responses, selected match statistics and user notes may be securely transmitted to our backend services and processed by Google's Gemini AI models.
-</p>
+  <h2>18. Changes to This Policy</h2>
+  <p>
+    We may update this Privacy Policy
+    as GameSetTrack's features,
+    providers, or information
+    practices change.
+  </p>
+  <p>
+    Updated versions will be published
+    on GameSetTrack's official
+    Privacy Policy page.
+  </p>
+  <p>
+    The date at the top indicates
+    the most recent update.
+  </p>
 
-<p>
-We do not use your data to train public AI models.
-</p>
-
-<h2>Cloud Services</h2>
-
-<p>GameSetTrack uses:</p>
-
-<ul>
-<li>Firebase Authentication for account management.</li>
-<li>Supabase for secure cloud synchronization and backend services.</li>
-<li>Google Gemini APIs for AI coaching features.</li>
-</ul>
-
-<p>
-These providers process information only to provide the functionality of GameSetTrack.
-</p>
-
-<h2>Local Storage</h2>
-
-<p>
-Match data may be stored locally on your iPhone or Apple Watch using Apple's storage frameworks.
-Offline functionality is supported whenever possible.
-</p>
-
-<h2>Data Sharing</h2>
-
-<p>
-We do not sell personal information.
-</p>
-
-<p>
-We do not share personal information with advertisers.
-</p>
-
-<p>
-Information is shared only with trusted service providers necessary to operate GameSetTrack, including Firebase, Supabase, and Google Gemini.
-</p>
-
-<h2>Guest Mode</h2>
-
-<p>
-Guest accounts are supported.
-Guest data remains associated with the anonymous account created on your device unless you choose to upgrade to a permanent account.
-</p>
-
-<h2>Security</h2>
-
-<p>
-We implement reasonable technical and organizational safeguards to protect your information.
-Authentication is secured through Firebase Authentication, and AI requests are routed through secure backend services.
-No sensitive API keys are stored inside the app.
-</p>
-
-<h2>Children's Privacy</h2>
-
-<p>
-GameSetTrack is not directed toward children under the age of 13.
-We do not knowingly collect personal information from children under 13.
-</p>
-
-<h2>Data Retention</h2>
-
-<p>
-We retain your account and match information for as long as your account remains active or as needed to provide the service.
-You may request deletion of your account and associated data.
-</p>
-
-<h2>Your Rights</h2>
-
-<p>You may:</p>
-
-<ul>
-<li>Access your data.</li>
-<li>Delete your account.</li>
-<li>Request deletion of stored information.</li>
-<li>Stop using cloud synchronization.</li>
-<li>Use GameSetTrack in guest mode.</li>
-</ul>
-
-<h2>Third-Party Services</h2>
-
-<p>
-GameSetTrack relies on third-party providers whose privacy policies may also apply:
-</p>
-
-<ul>
-<li>Google Firebase</li>
-<li>Supabase</li>
-<li>Google Gemini</li>
-<li>Apple</li>
-</ul>
-
-<h2>Changes to This Privacy Policy</h2>
-
-<p>
-This Privacy Policy may be updated periodically.
-Material changes will be reflected by updating the "Last Updated" date above.
-</p>
-
-<h2>Contact</h2>
-
-<p>
-If you have questions regarding this Privacy Policy or would like to request deletion of your information, please contact:
-</p>
-
-<p>
-<strong>Email:</strong> tumu.sriharsha1@gmail.com
-</p>
-
+  <h2>19. Contact</h2>
+  <p>
+    For privacy questions, requests,
+    or support, contact:
+  </p>
+  <p>
+    <strong>GameSetTrack</strong><br>
+    Publisher: Ravichandra Tumu<br>
+    Developer: Sriharsha Tumu<br>
+    Email:
+    <a href="mailto:gamesettrackapp@gmail.com">
+      gamesettrackapp@gmail.com
+    </a>
+  </p>
 </body>
 </html>
